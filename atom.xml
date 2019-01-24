@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>tttao</title>
+  
+  <subtitle>博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ztttao.github.io/"/>
+  <updated>2019-01-24T14:50:28.000Z</updated>
+  <id>https://ztttao.github.io/</id>
+  
+  <author>
+    <name>tttao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>resume</title>
+    <link href="https://ztttao.github.io/all/resume/"/>
+    <id>https://ztttao.github.io/all/resume/</id>
+    <published>2019-01-24T14:47:04.000Z</published>
+    <updated>2019-01-24T14:50:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>熟悉Java、SpringMVC、Springboot、MyBatis.<br>熟悉Html、CSS、JSP.<br>熟悉MySql.<br>熟悉Maven、Tomcat.<br>熟悉应用IntelliJ IDEA,Eclipse.<br>了解简单数据结构，如：数组、栈和队列、链表、简单树结构。</p><p>项目经验：</p><p>OA办公系统<br>运用Mybatis、Spring、SpringMVC和Mysql。<br>办公系统主要功能模块为部门信息管理、员工信息管理、和报销单处理。完成了登录和注销、员工和部门信息的增删改查、增加了报销单的处理流程。员工提交、修改和查看报销单，部门经理通过、打回和拒绝报销单，和总经理审核部分报销单。<br>网上商城<br><a href="https://gitee.com/tttao/mmall/tree/v1.0/" target="_blank" rel="noopener">https://gitee.com/tttao/mmall/tree/v1.0/</a><br>运用Mybatis、SpringMVC和Mysql。<br>自营的B2C商城，主要有会员登录、注册，个人中心、商品展示、购物车、收货地址、支付功能和商品后台添加修改操作。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;熟悉Java、SpringMVC、Springboot、MyBatis.&lt;br&gt;熟悉Html、CSS、JSP.&lt;br&gt;熟悉MySql.&lt;br&gt;熟悉Maven、Tomcat.&lt;br&gt;熟悉应用IntelliJ IDEA,Eclipse.&lt;br&gt;了解简单数据结构，如：
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>world&#39;</title>
+    <link href="https://ztttao.github.io/all/world/"/>
+    <id>https://ztttao.github.io/all/world/</id>
+    <published>2019-01-16T17:03:33.000Z</published>
+    <updated>2019-01-16T17:03:34.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ztttao.github.io/other/hello-world/"/>
+    <id>https://ztttao.github.io/other/hello-world/</id>
+    <published>2019-01-16T16:23:46.360Z</published>
+    <updated>2019-01-16T17:06:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello World!<br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Hello World!&lt;br&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a hre
+      
+    
+    </summary>
+    
+      <category term="other" scheme="https://ztttao.github.io/categories/other/"/>
+    
+    
+  </entry>
+  
+</feed>
