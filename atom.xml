@@ -5,9 +5,9 @@
   <subtitle>博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://ztttao.github.io/"/>
-  <updated>2019-01-24T14:50:28.000Z</updated>
-  <id>https://ztttao.github.io/</id>
+  <link href="https://ztttao.github.io/hexosite/"/>
+  <updated>2019-01-24T14:57:08.000Z</updated>
+  <id>https://ztttao.github.io/hexosite/</id>
   
   <author>
     <name>tttao</name>
@@ -18,18 +18,18 @@
   
   <entry>
     <title>resume</title>
-    <link href="https://ztttao.github.io/all/resume/"/>
-    <id>https://ztttao.github.io/all/resume/</id>
+    <link href="https://ztttao.github.io/hexosite/all/resume/"/>
+    <id>https://ztttao.github.io/hexosite/all/resume/</id>
     <published>2019-01-24T14:47:04.000Z</published>
-    <updated>2019-01-24T14:50:28.000Z</updated>
+    <updated>2019-01-24T14:57:08.000Z</updated>
     
-    <content type="html"><![CDATA[<p>熟悉Java、SpringMVC、Springboot、MyBatis.<br>熟悉Html、CSS、JSP.<br>熟悉MySql.<br>熟悉Maven、Tomcat.<br>熟悉应用IntelliJ IDEA,Eclipse.<br>了解简单数据结构，如：数组、栈和队列、链表、简单树结构。</p><p>项目经验：</p><p>OA办公系统<br>运用Mybatis、Spring、SpringMVC和Mysql。<br>办公系统主要功能模块为部门信息管理、员工信息管理、和报销单处理。完成了登录和注销、员工和部门信息的增删改查、增加了报销单的处理流程。员工提交、修改和查看报销单，部门经理通过、打回和拒绝报销单，和总经理审核部分报销单。<br>网上商城<br><a href="https://gitee.com/tttao/mmall/tree/v1.0/" target="_blank" rel="noopener">https://gitee.com/tttao/mmall/tree/v1.0/</a><br>运用Mybatis、SpringMVC和Mysql。<br>自营的B2C商城，主要有会员登录、注册，个人中心、商品展示、购物车、收货地址、支付功能和商品后台添加修改操作。</p>]]></content>
+    <content type="html"><![CDATA[<p>熟悉Java、SpringMVC、Springboot、MyBatis.<br>熟悉Html、CSS、JSP.<br>熟悉MySql.<br>悉Maven、Tomcat.<br>熟悉应用IntelliJ IDEA,Eclipse.<br>了解简单数据结构，如：数组、栈和队列、链表、简单树结构。</p><p>项目经验：</p><p>OA办公系统<br>运用Mybatis、Spring、SpringMVC和Mysql。<br>办公系统主要功能模块为部门信息管理、员工信息管理、和报销单处理。完成了登录和注销、员工和部门信息的增删改查、增加了报销单的处理流程。员工提交、修改和查看报销单，部门经理通过、打回和拒绝报销单，和总经理审核部分报销单。</p><p>网上商城<br><a href="https://gitee.com/tttao/mmall/tree/v1.0/" target="_blank" rel="noopener">https://gitee.com/tttao/mmall/tree/v1.0/</a><br>运用Mybatis、SpringMVC和Mysql。<br>自营的B2C商城，主要有会员登录、注册，个人中心、商品展示、购物车、收货地址、支付功能和商品后台添加修改操作。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;熟悉Java、SpringMVC、Springboot、MyBatis.&lt;br&gt;熟悉Html、CSS、JSP.&lt;br&gt;熟悉MySql.&lt;br&gt;熟悉Maven、Tomcat.&lt;br&gt;熟悉应用IntelliJ IDEA,Eclipse.&lt;br&gt;了解简单数据结构，如：
+        &lt;p&gt;熟悉Java、SpringMVC、Springboot、MyBatis.&lt;br&gt;熟悉Html、CSS、JSP.&lt;br&gt;熟悉MySql.&lt;br&gt;悉Maven、Tomcat.&lt;br&gt;熟悉应用IntelliJ IDEA,Eclipse.&lt;br&gt;了解简单数据结构，如：数组、栈和队
       
     
     </summary>
@@ -39,8 +39,8 @@
   
   <entry>
     <title>world&#39;</title>
-    <link href="https://ztttao.github.io/all/world/"/>
-    <id>https://ztttao.github.io/all/world/</id>
+    <link href="https://ztttao.github.io/hexosite/all/world/"/>
+    <id>https://ztttao.github.io/hexosite/all/world/</id>
     <published>2019-01-16T17:03:33.000Z</published>
     <updated>2019-01-16T17:03:34.000Z</updated>
     
@@ -53,8 +53,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ztttao.github.io/other/hello-world/"/>
-    <id>https://ztttao.github.io/other/hello-world/</id>
+    <link href="https://ztttao.github.io/hexosite/other/hello-world/"/>
+    <id>https://ztttao.github.io/hexosite/other/hello-world/</id>
     <published>2019-01-16T16:23:46.360Z</published>
     <updated>2019-01-16T17:06:12.000Z</updated>
     
@@ -69,7 +69,7 @@
     
     </summary>
     
-      <category term="other" scheme="https://ztttao.github.io/categories/other/"/>
+      <category term="other" scheme="https://ztttao.github.io/hexosite/categories/other/"/>
     
     
   </entry>
