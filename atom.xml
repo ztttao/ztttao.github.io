@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ztttao.github.io/"/>
-  <updated>2019-03-02T06:06:44.000Z</updated>
+  <updated>2019-03-16T07:05:50.000Z</updated>
   <id>https://ztttao.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码高亮</title>
+    <link href="https://ztttao.github.io/all/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE/"/>
+    <id>https://ztttao.github.io/all/代码高亮/</id>
+    <published>2019-03-16T06:53:48.000Z</published>
+    <updated>2019-03-16T07:05:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>  比如结果<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public ListNode middleNode(ListNode head) &#123;</span><br><span class="line">ListNode slow = head, fast = head;</span><br><span class="line">while (fast != null &amp;&amp; fast.next != null) &#123;</span><br><span class="line">slow = slow.next;</span><br><span class="line">fast = fast.next.next;</span><br><span class="line">&#125;</span><br><span class="line">return slow;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>使用方法<br><a href="http://octopress.org/docs/plugins/codeblock/" target="_blank" rel="noopener">http://octopress.org/docs/plugins/codeblock/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;  比如结果&lt;br&gt; &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[LeetCode] 876. Middle of the Linked List</title>
+    <link href="https://ztttao.github.io/all/LeetCode-876-Middle-of-the-Linked-List/"/>
+    <id>https://ztttao.github.io/all/LeetCode-876-Middle-of-the-Linked-List/</id>
+    <published>2019-03-16T06:03:34.000Z</published>
+    <updated>2019-03-16T06:53:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example 1:"></a>Example 1:</h3><p>Input: [1,2,3,4,5]<br>Output: Node 3 from this list (Serialization: [3,4,5])<br>The returned node has value 3.  (The judge’s serialization of this node is [3,4,5]).<br>Note that we returned a ListNode object ans, such that:<br>ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.<br>Example 2:</p><p>Input: [1,2,3,4,5,6]<br>Output: Node 4 from this list (Serialization: [4,5,6])<br>Since the list has two middle nodes with values 3 and 4, we return the second one.</p><p>Note:</p><p>The number of nodes in the given list will be between 1 and 100.</p><h3 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h3><p>给定一个非空单链表的表头head，返回链表中间的节点。如果有两个中间节点，则返回第二个中间节点。假设1&lt;=输入链表的节点总数&lt;=100。</p><h3 id="实现思路："><a href="#实现思路：" class="headerlink" title="实现思路："></a>实现思路：</h3><p>使用快慢指针，其中快指针fast每次向下移动两个节点，慢指针slow每次向下移动一个节点。假设总节点数为N，那么当fast指向最后一个节点时，fast指针扫过的节点总数为N。由于slow指针的速度恰好是fast的一半，那么slow指针恰好扫过N/2个节点，此时slow指向的节点就是最终结果。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public ListNode middleNode(ListNode head) &#123;</span><br><span class="line">ListNode slow = head, fast = head;</span><br><span class="line">while (fast != null &amp;&amp; fast.next != null) &#123;</span><br><span class="line">slow = slow.next;</span><br><span class="line">fast = fast.next.next;</span><br><span class="line">&#125;</span><br><span class="line">return slow;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Example-1&quot;&gt;&lt;a href=&quot;#Example-1&quot; class=&quot;headerlink&quot; title=&quot;Example 1:&quot;&gt;&lt;/a&gt;Example 1:&lt;/h3&gt;&lt;p&gt;Input: [1,2,3,4,5]&lt;br&gt;Output: Node 3 fro
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>resume</title>

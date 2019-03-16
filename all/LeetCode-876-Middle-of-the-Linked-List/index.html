@@ -10,6 +10,8 @@
 
     <!--Description-->
     
+        <meta name="description" content="Example 1:Input: [1,2,3,4,5]Output: Node 3 from this list (Serialization: [3,4,5])The returned node has value 3.  (The judge’s serialization of this n">
+    
 
     <!--Author-->
     
@@ -18,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="tttao">
+        <meta property="og:title" content="[LeetCode] 876. Middle of the Linked List">
     
 
     <!--Open Graph Description-->
@@ -29,7 +31,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
     
 
     <!--Page Cover-->
@@ -40,7 +42,7 @@
 
     <!-- Title -->
     
-    <title>tttao</title>
+    <title>[LeetCode] 876. Middle of the Linked List - tttao</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -135,45 +137,14 @@
     <div class="logo">
         <a href="/"><i class="logo-icon fa fa-home" aria-hidden="true"></i></a>
         
-            <h1 id="main-title" class="title">tttao</h1>
-        
     </div>
 </header>
 
         <section class="main">
             
-                
 <div class="post">
 
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/all/代码高亮/">
-                代码高亮
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2019-03-16</span>
-            
-            
-            
-        </div>
-    </div>
-
-    
-        <div class="content">
-            <p>  比如结果<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">	public ListNode middleNode(ListNode head) &#123;</span><br><span class="line">		ListNode slow = head, fast = head;</span><br><span class="line">		while (fast != null &amp;&amp; fast.next != null) &#123;</span><br><span class="line">			slow = slow.next;</span><br><span class="line">			fast = fast.next.next;</span><br><span class="line">		&#125;</span><br><span class="line">		return slow;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>使用方法<br><a href="http://octopress.org/docs/plugins/codeblock/" target="_blank" rel="noopener">http://octopress.org/docs/plugins/codeblock/</a></p>
-
-        </div>
-    
-
-</div>
-            
-                
-<div class="post">
-
-    <div class="post-header index">
+    <div class="post-header">
         <h1 class="title">
             <a href="/all/LeetCode-876-Middle-of-the-Linked-List/">
                 [LeetCode] 876. Middle of the Linked List
@@ -188,9 +159,13 @@
         </div>
     </div>
 
-    
-        <div class="content">
-            <h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example 1:"></a>Example 1:</h3><p>Input: [1,2,3,4,5]<br>Output: Node 3 from this list (Serialization: [3,4,5])<br>The returned node has value 3.  (The judge’s serialization of this node is [3,4,5]).<br>Note that we returned a ListNode object ans, such that:<br>ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.<br>Example 2:</p>
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example 1:"></a>Example 1:</h3><p>Input: [1,2,3,4,5]<br>Output: Node 3 from this list (Serialization: [3,4,5])<br>The returned node has value 3.  (The judge’s serialization of this node is [3,4,5]).<br>Note that we returned a ListNode object ans, such that:<br>ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, and ans.next.next.next = NULL.<br>Example 2:</p>
 <p>Input: [1,2,3,4,5,6]<br>Output: Node 4 from this list (Serialization: [4,5,6])<br>Since the list has two middle nodes with values 3 and 4, we return the second one.</p>
 <p>Note:</p>
 <p>The number of nodes in the given list will be between 1 and 100.</p>
@@ -198,113 +173,20 @@
 <h3 id="实现思路："><a href="#实现思路：" class="headerlink" title="实现思路："></a>实现思路：</h3><p>使用快慢指针，其中快指针fast每次向下移动两个节点，慢指针slow每次向下移动一个节点。假设总节点数为N，那么当fast指向最后一个节点时，fast指针扫过的节点总数为N。由于slow指针的速度恰好是fast的一半，那么slow指针恰好扫过N/2个节点，此时slow指向的节点就是最终结果。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">	public ListNode middleNode(ListNode head) &#123;</span><br><span class="line">		ListNode slow = head, fast = head;</span><br><span class="line">		while (fast != null &amp;&amp; fast.next != null) &#123;</span><br><span class="line">			slow = slow.next;</span><br><span class="line">			fast = fast.next.next;</span><br><span class="line">		&#125;</span><br><span class="line">		return slow;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-        </div>
-    
-
-</div>
-            
-                
-<div class="post">
-
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/all/resume/">
-                resume
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2019-01-24</span>
-            
-            
-            
-        </div>
     </div>
 
     
-        <div class="content">
-            <p>熟悉Java、SpringMVC、Springboot、MyBatis.<br>熟悉Html、CSS、JSP.<br>熟悉MySql.<br>悉Maven、Tomcat.<br>熟悉应用IntelliJ IDEA,Eclipse.<br>了解简单数据结构，如：数组、栈和队列、链表、简单树结构。</p>
-<p>项目经验：</p>
-<p>OA办公系统<br>运用Mybatis、Spring、SpringMVC和Mysql。<br>办公系统主要功能模块为部门信息管理、员工信息管理、和报销单处理。完成了登录和注销、员工和部门信息的增删改查、增加了报销单的处理流程。员工提交、修改和查看报销单，部门经理通过、打回和拒绝报销单，和总经理审核部分报销单。</p>
-<p>邮箱：<a href="mailto:zhouwentao.shzu@foxmail.com" target="_blank" rel="noopener">zhouwentao.shzu@foxmail.com</a></p>
 
-        </div>
+    
+
+    <!-- Comments -->
     
 
 </div>
-            
-                
-<div class="post">
-
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/all/world/">
-                world'
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2019-01-17</span>
-            
-            
-            
-        </div>
-    </div>
-
-    
-        <div class="content">
-            
-        </div>
-    
-
-</div>
-            
-                
-<div class="post">
-
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/other/hello-world/">
-                Hello World
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2019-01-17</span>
-            
-            
-            
-                <span class="category">
-                    <a href="/categories/other/">other</a>
-                </span>
-            
-        </div>
-    </div>
-
-    
-        <div class="content">
-            <p>Hello World!<br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-        </div>
-    
-
-</div>
-            
         </section>
+
     </div>
 </div>
-
-
-
-
 
 
 </div>
